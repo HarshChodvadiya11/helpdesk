@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BaseApi = axios.create({
-  baseURL: "http://localhost:7700",
+  baseURL: "https://helpdesk-k3ho.onrender.com",
 });
 
 export default BaseApi;
